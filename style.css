@@ -73,7 +73,7 @@ h1 span, h2 span { color: var(--cyan); }
 .hero-visual { position: relative; max-width: 420px; justify-self: center; width: 100%; }
 .portrait-frame { padding: 12px; background: #0b192a; border: 1px solid rgba(126, 177, 232, .3); position: relative; box-shadow: 22px 22px 0 rgba(22, 133, 255, .08); }
 .portrait-topline { display: flex; justify-content: space-between; color: #8ea5bd; font-size: .55rem; letter-spacing: .14em; padding: .2rem .2rem .65rem; }
-.portrait-frame img { width: 100%; aspect-ratio: 7 / 8; object-fit: cover; object-position: center; filter: saturate(.96); }
+.portrait-frame img { width: 100%; aspect-ratio: 3 / 8; object-fit: cover; object-position: center; filter: saturate(.96); }
 .portrait-caption { display: flex; align-items: center; gap: .8rem; padding: .85rem .35rem .25rem; }
 .caption-mark { display: grid; place-items: center; width: 38px; height: 38px; background: var(--blue); color: white; font-family: var(--font-display); font-weight: 800; font-size: 1.2rem; }
 .portrait-caption strong, .portrait-caption small { display: block; }
