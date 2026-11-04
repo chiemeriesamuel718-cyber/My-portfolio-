@@ -259,3 +259,22 @@ h1 span, h2 span { color: var(--cyan); }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { scroll-behavior: auto !important; animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; }
 }
+.hero-visual {
+  align-self: center;
+  height: auto;
+  min-height: 0;
+}
+
+.portrait-frame {
+  height: auto;
+  min-height: 0;
+  align-self: start;
+}
+
+.portrait-frame img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 7 / 8;
+  object-fit: contain;
+  object-position: center;
+}
