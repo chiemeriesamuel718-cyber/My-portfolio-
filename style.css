@@ -259,6 +259,7 @@ h1 span, h2 span { color: var(--cyan); }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { scroll-behavior: auto !important; animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; }
 }
+/* Override: keeps portrait frame sized to the photo (added Nov 2026) */
 .hero-visual {
   align-self: center;
   height: auto;
